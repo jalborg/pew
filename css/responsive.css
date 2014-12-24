@@ -1,0 +1,18 @@
+@media screen and (min-width: 480px) {
+		#map_canvas { 
+			width:900px; margin: 0 auto; padding: 0; height: 100%; }
+	}
+
+
+@media screen and (min-width: 660px) {
+	#resplink {
+			display:inline-block;
+	}
+	#header {
+	background-image:url(pewdiepie_art.png);
+}
+	#frontimg img {
+		height:300px;
+	}
+	
+}

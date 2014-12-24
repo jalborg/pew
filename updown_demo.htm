@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <title>simpleSlider - Up/Down Demo</title>
+
+  <script type='text/javascript' src='http://code.jquery.com/jquery-1.9.1.js'></script>
+   <!-- uncomment this and remove the one below 
+   <script type='text/javascript' src='js/jquery.simpleslider.js'></script> 
+   -->
+   
+   <script type='text/javascript' src='https://rawgithub.com/amaroks/simpleSlider/master/js/jquery.simpleslider.js'></script>
+
+
+</head>
+<body>
+  <div id="sliders" style="width:1024px; height:365px;">
+
+      <div class="slide"> <img src="images/1.jpg"/> </div>
+      <div class="slide"> <img src="images/2.jpg"/> </div>
+      <!-- <div class="slide"><h1>Hello World, This is text</h1><p>this is lorem ipsum dummy text</p></div>  -->
+      <div class="slide"> <img src="images/3.jpg"/> </div> 
+</div>
+
+  <script type='text/javascript'>
+    $("#sliders").simpleSlider({ speed: 500, direction: "up" });
+  </script>
+
+</body>
+</html>
