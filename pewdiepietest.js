@@ -36,7 +36,7 @@
     ]
   }
 ];
-map.setOptions({ minZoom: 2, maxZoom: 10 });
+map.setOptions({ minZoom: 1, maxZoom: 10 });
 map.setOptions({styles: styles});
     infowindow = new google.maps.InfoWindow({
         maxWidth: 200,
