@@ -141,13 +141,35 @@ footer a:hover {
 	display:inline-block;
 	list-style-type:none;
 	padding-left:0px;
+}
+
+/* Contagion div and images inside div */
+.contagion {
+	margin-bottom:10px;
+	padding-bottom:40px;
 
 
 }
-
-.slide {
-	text-align: center;
+.contagion img {
+	max-width:70%;
+	height:auto;
+	display:block;
+	margin:10 auto 10 auto;
+	padding-bottom:10px;
 }
+
+.flappyText {
+	margin-top:10px;
+	padding-bottom:10px;
+}
+
+div, iframe {
+  margin: 10 auto 10 auto;
+  display:block;
+  padding: 10 auto 10 auto;
+}
+
+
 .flappybird li {
 	display: inline-block;
     position: relative;
@@ -155,10 +177,9 @@ footer a:hover {
 
 .flappyText {
 	font-family: "Pontano sans";
-	font-size: 25px;
-	font-weight: bold;
-	color: #505050;
-    margin: 5px;
+	font-size: 18px;
+    margin: 5 auto 5 auto;
+    padding: 5 auto 5 auto;
 
 }
 
@@ -170,10 +191,6 @@ footer a:hover {
 #nav2 li a:hover {
 
 	color: #BC4676;
-}
-
-.flappyimage {
-margin: 30px;
 }
 
 #header2 ul li {	display: inline-block;
